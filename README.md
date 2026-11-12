@@ -4,9 +4,9 @@ learnStack 官方下载与使用说明。此仓库公开测试版安装包、版
 
 learnStack 帮助你整理自学资料、记录学习问题，并将可复用的方法沉淀到案例库；学生团队也可以在课程、实验、竞赛或毕业设计中共享和审核知识。
 
-**测试版本：0.1.8 beta · Android 8.0 及以上**
+**测试版本：0.1.9 beta · Android 8.0 及以上**
 
-[下载 APK](https://github.com/CidneyAurum/learnStack-releases/releases/download/v0.1.8-beta.1/learnStack-demo-0.1.8-debug.apk) · [版本与校验和](https://github.com/CidneyAurum/learnStack-releases/releases/tag/v0.1.8-beta.1) · [安装说明](docs/INSTALL.md) · [官网](https://learnstack.marnhub.com)
+[下载 APK](https://github.com/CidneyAurum/learnStack-releases/releases/download/v0.1.9-beta.1/learnStack-demo-0.1.9-debug.apk) · [版本与校验和](https://github.com/CidneyAurum/learnStack-releases/releases/tag/v0.1.9-beta.1) · [安装说明](docs/INSTALL.md) · [官网](https://learnstack.marnhub.com)
 
 ## 使用前了解
 
@@ -14,6 +14,7 @@ learnStack 帮助你整理自学资料、记录学习问题，并将可复用的
 - 手机需要联网；当前试用后端由本机服务通过 HTTPS 隧道提供，依赖服务电脑、后端及隧道持续在线，暂不是常驻云服务。
 - AI 功能需要你在账户中配置自己的 OpenAI 兼容模型服务。APK 不内嵌生成模型，也不提供共享模型密钥；模型服务可能单独收费。
 - 已有账号请直接登录。注册提示邮箱已注册时，无需重复注册或卸载应用。
+- 0.1.9 改进模型配置的输入校验和状态说明；获取列表前无需填写模型名，缺少必要信息时会说明原因。设备原先阻断的实际原因仍待核对，不归因为粘贴换行。
 
 ## 你可以做什么
 

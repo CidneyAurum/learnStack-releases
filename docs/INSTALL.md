@@ -2,12 +2,12 @@
 
 ## 1. 下载和安装
 
-1. 使用 Android 8.0 及以上的手机，打开 [0.1.8 beta 发布页](https://github.com/CidneyAurum/learnStack-releases/releases/tag/v0.1.8-beta.1)。
-2. 展开 **Assets**，下载 `learnStack-demo-0.1.8-debug.apk`，也可[直接下载 APK](https://github.com/CidneyAurum/learnStack-releases/releases/download/v0.1.8-beta.1/learnStack-demo-0.1.8-debug.apk)。不要下载 GitHub 自动生成的 Source code 归档来安装应用。
+1. 使用 Android 8.0 及以上的手机，打开 [0.1.9 beta 发布页](https://github.com/CidneyAurum/learnStack-releases/releases/tag/v0.1.9-beta.1)。
+2. 展开 **Assets**，下载 `learnStack-demo-0.1.9-debug.apk`，也可[直接下载 APK](https://github.com/CidneyAurum/learnStack-releases/releases/download/v0.1.9-beta.1/learnStack-demo-0.1.9-debug.apk)。不要下载 GitHub 自动生成的 Source code 归档来安装应用。
 3. 打开 APK；如系统询问，允许当前浏览器或文件管理器安装此来源的应用，再按系统提示完成安装。
 4. 打开 learnStack，确认手机可以联网，使用默认服务地址 `https://learnstack.marnhub.com`。
 
-当前安装包是预览用 debug APK，未通过应用商店分发。请只从本仓库发布页取得安装包；发布页的 `SHA256SUMS.txt` 用于核对下载文件是否完整，不能替代来源判断。也可下载[包含安装包与说明的 ZIP](https://github.com/CidneyAurum/learnStack-releases/releases/download/v0.1.8-beta.1/learnStack-demo-0.1.8.zip)，解压后打开其中的 APK。
+当前安装包是预览用 debug APK，未通过应用商店分发。请只从本仓库发布页取得安装包；发布页的 `SHA256SUMS.txt` 用于核对下载文件是否完整，不能替代来源判断。也可下载[包含安装包与说明的 ZIP](https://github.com/CidneyAurum/learnStack-releases/releases/download/v0.1.9-beta.1/learnStack-demo-0.1.9.zip)，解压后打开其中的 APK。
 
 如果已经安装旧版，先尝试直接覆盖安装。若提示签名不一致，请停止安装并反馈，避免为解决安装错误而直接卸载；卸载可能删除尚未同步的本机资料。若提示不允许降级，请核对安装包版本。
 
@@ -27,6 +27,8 @@
 4. 核对选择后，明确点击保存，再使用检查功能核对服务，到 **问答** 发起提问。
 
 获取模型只请求供应商的模型列表，不会保存这次输入的配置或密钥，不生成回答，也不发送学习材料。若服务不支持列表、列表为空或获取失败，可以切换为手动填写模型名称。
+
+0.1.9 中，缺少必要信息时点击获取或保存会显示具体校验提示；地址栏会说明格式问题，等待处理或服务暂不能保存密钥也会说明原因。获取列表不要求先填写模型名称，保存前需明确选择或填写问答模型名。地址只忽略首尾空白，不会删除内部空白或不可见字符来拼接目标。若仍无法操作，请反馈版本、步骤及实际提示，不要提供 Key。
 
 编辑已有配置时，API Key 留空仅能在服务地址与原配置相同时，使用后端保存的原密钥获取列表；更换地址后必须重新输入密钥。关闭弹窗会清除本次临时密钥和列表，修改地址、密钥或协议后需要重新获取。
 
