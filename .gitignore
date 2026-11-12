@@ -1,0 +1,16 @@
+# Distribution assets belong in GitHub Releases, not Git history.
+*.apk
+*.aab
+*.apks
+*.zip
+*.tar
+*.gz
+*.jks
+*.keystore
+*.pem
+*.key
+.env
+.env.*
+local.properties
+.DS_Store
+Thumbs.db
